@@ -1,0 +1,29 @@
+{
+  "name": "fe-boilerplate",
+  "version": "0.0.0",
+  "description": "Web 前端开发起始样板",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "dist": "dist",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SynZhang/fe-boilerplate.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
