@@ -1,9 +1,9 @@
-# Web Client Side Rendering App Boilerplate
+# Web Server Side Rendering App Boilerplate
 
 ## Init
 
 ```
-npx create-react-app my-app --template typescript
+npx create-next-app --typescript
 ```
 
 ## Dependencies
