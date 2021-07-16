@@ -1,3 +1,4 @@
+import logger from '../utils/logger'
 import { State, Action } from './index'
 
 export const initialState = {}
@@ -7,6 +8,7 @@ export const reducer = (state: State, action: Action): State => {
 
   switch (type) {
   default:
+    logger.warn('未匹配到 action')
     return state
   }
 }
