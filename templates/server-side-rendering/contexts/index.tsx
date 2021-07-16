@@ -2,6 +2,7 @@ import {
   createContext,
   useContext,
   useReducer,
+  FC,
   Dispatch,
 } from 'react'
 import { reducer, initialState } from './slice'
@@ -15,10 +16,14 @@ export interface Action {
   payload?: any
 }
 
+interface ProviderProps {
+  children: any
+}
+
 const GlobalStateContext = createContext<State>()
 const DispatchContext = createContext<Dispatch<Action>>()
 
-const Provider = ({ children }) => {
+const Provider: FC<ProviderProps> = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState)
 
   return (
