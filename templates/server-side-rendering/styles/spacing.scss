@@ -1,0 +1,25 @@
+@import './abstracts/variables';
+
+.mb-1 {
+  margin-bottom: $spacer-3;
+}
+
+.mb-2 {
+  margin-bottom: $spacer-4;
+}
+
+.mb-3 {
+  margin-bottom: $spacer-5;
+}
+
+.p-1 {
+  padding: $spacer-3;
+}
+
+.p-2 {
+  padding: $spacer-4;
+}
+
+.p-3 {
+  padding: $spacer-5;
+}

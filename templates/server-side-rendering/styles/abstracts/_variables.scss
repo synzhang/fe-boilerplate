@@ -1,0 +1,108 @@
+/**
+ * Variables
+ * $component-state-property-size
+ */
+
+
+/**
+ * Color system
+ */
+
+$white: #fff;
+$black: #000;
+$blue: #1890ff;
+$green: #28a745;
+$cyan: #17a2b8;
+$yellow: #ffc107;
+$gold: #d3b285;
+$red: #dc3545;
+
+$color-primary: $blue;
+$color-secondary: #6c757d;
+$color-success: $green;
+$color-info: $cyan;
+$color-warning: $yellow;
+$color-danger: $red;
+$color-white: $white;
+$color-black: $black;
+
+$color-gray-lighter: #dedede;
+$color-gray-light: #c1c1c1;
+$color-gray: #979797;
+$color-gray-dark: #666;
+$color-gray-darker: #333;
+
+$color-body: $color-gray-dark;
+$color-muted: $color-gray-light;
+$color-link: $color-primary;
+$color-link-hover: darken($color-link, 5%);
+
+
+/**
+ * Spacing
+ */
+
+$spacer: 8px;
+$spacer-1: $spacer;
+$spacer-2: $spacer * 2;
+$spacer-3: $spacer * 3;
+$spacer-4: $spacer * 4;
+$spacer-5: $spacer * 5;
+$spacer-6: $spacer * 6;
+
+
+/**
+ * Typography
+ */
+
+$rem: 32px;
+
+$font-size-xs: 0.75 * $rem;
+$font-size-sm: 0.875 * $rem;
+$font-size-base: 1 * $rem;
+$font-size-lg: 1.125 * $rem;
+$font-size-xl: 1.25 * $rem;
+$font-size-2xl: 1.5 * $rem;
+$font-size-3xl: 1.875 * $rem;
+$font-size-4xl: 2.25 * $rem;
+$font-size-5xl: 3 * $rem;
+$font-size-6xl: 3.75 * $rem;
+$font-size-7xl: 4.5 * $rem;
+$font-size-8xl: 6 * $rem;
+$font-size-9xl: 8 * $rem;
+
+$font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+$font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$line-height-xs: 1rem;
+$line-height-sm: 1.25rem;
+$line-height-base: 1.5rem;
+$line-height-lg: 1.75rem;
+$line-height-xl: 1.75rem;
+$line-height-2xl: 2rem;
+$line-height-3xl: 2.25rem;
+$line-height-4xl: 2.5rem;
+$line-height-5xl: 1;
+$line-height-6xl: 1;
+$line-height-7xl: 1;
+$line-height-8xl: 1;
+$line-height-9xl: 1;
+
+/**
+ * Z-Index
+ */
+
+$z-0: 0;
+$z-10: 10;
+$z-20: 20;
+$z-30: 30;
+$z-40: 40;
+$z-50: 50;
+$z-auto: auto;

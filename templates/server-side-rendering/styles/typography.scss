@@ -1,0 +1,44 @@
+@import './abstracts/variables';
+
+$sizes: xs, sm, base, lg, xl, 2xl, 3xl, 4xl, 5xl, 6xl, 7xl, 8xl, 9xl;
+$font-sizes: (
+  xs: $font-size-xs,
+  sm: $font-size-sm,
+  base: $font-size-base,
+  lg: $font-size-lg,
+  xl: $font-size-xl,
+  2xl: $font-size-2xl,
+  3xl: $font-size-3xl,
+  4xl: $font-size-4xl,
+  5xl: $font-size-5xl,
+  6xl: $font-size-6xl,
+  7xl: $font-size-7xl,
+  8xl: $font-size-8xl,
+  9xl: $font-size-9xl,
+);
+$line-heights: (
+  xs: $line-height-xs,
+  sm: $line-height-sm,
+  base: $line-height-base,
+  lg: $line-height-lg,
+  xl: $line-height-xl,
+  2xl: $line-height-2xl,
+  3xl: $line-height-3xl,
+  4xl: $line-height-4xl,
+  5xl: $line-height-5xl,
+  6xl: $line-height-6xl,
+  7xl: $line-height-7xl,
+  8xl: $line-height-8xl,
+  9xl: $line-height-9xl,
+);
+
+@each $size in $sizes {
+  .text-#{$size} {
+    font-size: map-get($font-sizes, $size);
+    line-height: map-get($line-heights, $size);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
