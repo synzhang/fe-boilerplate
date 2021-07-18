@@ -1,8 +1,7 @@
 import {
   HTTP_STATUS_CODE,
 } from 'constants/httpStatuses'
-
-const localStorageKey = '_token_'
+import { STORAGE_KEYS } from 'constants/storageKeys'
 
 export interface RequestConfig {
   headers?: any
@@ -34,7 +33,7 @@ export default function request(
   initConfig: RequestConfig = {} as RequestConfig
 ): Promise<RequestResult | undefined> {
   const { body, timeout, beforeSend, ...customConfig } = initConfig
-  const token = window.localStorage.getItem(localStorageKey)
+  const token = window.localStorage.getItem(STORAGE_KEYS.TOKEN)
   const headers = {
     'Accept': 'application/json',
     'Content-Type': 'application/json;charset=UTF-8'
@@ -95,5 +94,5 @@ export default function request(
 }
 
 function logout() {
-  window.localStorage.removeItem(localStorageKey)
+  window.localStorage.removeItem(STORAGE_KEYS.TOKEN)
 }
