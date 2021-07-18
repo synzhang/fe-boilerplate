@@ -1,14 +1,19 @@
 import { FC } from 'react'
+import { QueryClient, QueryClientProvider } from 'react-query'
 import Provider from '../contexts'
 
 interface Props {
 }
 
+const queryClient = new QueryClient()
+
 const App: FC<Props> = () => {
   return (
-    <Provider>
-      <div>Hello world!</div>
-    </Provider>
+    <QueryClientProvider client={queryClient}>
+      <Provider>
+        <div>Hello world!</div>
+      </Provider>
+    </QueryClientProvider>
   )
 }
 

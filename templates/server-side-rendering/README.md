@@ -9,6 +9,6 @@ npx create-next-app --typescript
 ## Dependencies
 
 ```
-npm install --save-exact antd axios react-router-dom @sentry/browser
+npm install --save-exact react-query @sentry/browser
 npm install --save-dev --save-exact dotenv
 ```
