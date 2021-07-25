@@ -1,7 +1,7 @@
 import {
   HTTP_STATUS_CODE,
-} from 'constants/httpStatuses'
-import { STORAGE_KEYS } from 'constants/storageKeys'
+} from '@/constants/httpStatuses'
+import { STORAGE_KEYS } from '@/constants/storageKeys'
 
 export interface RequestConfig {
   headers?: any

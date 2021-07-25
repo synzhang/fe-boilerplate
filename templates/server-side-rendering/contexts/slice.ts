@@ -1,4 +1,4 @@
-import logger from '../utils/logger'
+import logger from '@/utils/logger'
 import { State, Action } from './index'
 
 export const initialState = {}
