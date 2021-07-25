@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "",
+  "scripts": {
+    "extract:i18n": "formatjs extract '{constants,utils,services,hooks,contexts,components,layouts,pagePartials,pages}/**/*.{js,ts,tsx}' --out-file lang/$LANG.raw.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "compile:i18n": "formatjs compile lang/$LANG.raw.json --ast --out-file lang/$LANG.json"
+  },
+  "dependencies": {
+    "@formatjs/intl-datetimeformat": "",
+    "@formatjs/intl-numberformat": "",
+    "@sentry/browser": "",
+    "next": "",
+    "react": "",
+    "react-dom": "",
+    "react-intl": "",
+    "react-query": ""
+  },
+  "devDependencies": {
+    "@formatjs/cli": "",
+    "@types/react": "",
+    "babel-plugin-formatjs": "",
+    "eslint": "",
+    "eslint-config-next": "",
+    "typescript": ""
+  }
+}
