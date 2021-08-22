@@ -34,6 +34,12 @@ npm install --save-exact react-intl
 npm install --save-exact --save-dev @formatjs/cli @formatjs/intl-datetimeformat @formatjs/intl-numberformat babel-plugin-formatjs
 ```
 
+#### Dev Dependencies
+
+```
+npm install --save-exact --save-dev standard-version
+```
+
 
 ## Configuration
 ## Structure
