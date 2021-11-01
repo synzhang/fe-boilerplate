@@ -40,6 +40,12 @@ npm install --save-exact --save-dev @formatjs/cli @formatjs/intl-datetimeformat 
 npm install --save-exact --save-dev standard-version
 ```
 
+#### Security
+
+```
+npm install --save-exact --save-dev eslint-plugin-security
+```
+
 
 ## Configuration
 ## Structure
@@ -51,4 +57,5 @@ npm install --save-exact --save-dev standard-version
 ## API Mock Server
 ## Testing
 ## Error Handling
+## Security
 ## Performance
