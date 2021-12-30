@@ -4,7 +4,15 @@
   "scripts": {
     "extract:i18n": "formatjs extract '{constants,utils,services,hooks,contexts,components,layouts,pagePartials,pages}/**/*.{js,ts,tsx}' --out-file lang/$LANG.raw.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
     "compile:i18n": "formatjs compile lang/$LANG.raw.json --ast --out-file lang/$LANG.json",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postrelease": "git push && git push --tags",
+    "release-major": "npm run release -- --release-as major",
+    "release-minor": "npm run release -- --release-as minor",
+    "release-patch": "npm run release -- --release-as patch",
+    "release-premajor": "npm run release-major -- --prerelease",
+    "release-preminor": "npm run release-minor -- --prerelease",
+    "release-prepatch": "npm run release-patch -- --prerelease",
+    "release-prerelease": "npm run release -- --prerelease"
   },
   "dependencies": {
     "@formatjs/intl-datetimeformat": "",
