@@ -17,7 +17,8 @@
   "dependencies": {
     "@formatjs/intl-datetimeformat": "",
     "@formatjs/intl-numberformat": "",
-    "@sentry/browser": "",
+    "@sentry/nextjs": "",
+    "@sentry/tracing": "",
     "next": "",
     "react": "",
     "react-dom": "",
