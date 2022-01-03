@@ -8,6 +8,7 @@
 2. TypeScript
 3. I18n
 4. Error tracking
+5. Performance Monitoring
 
 
 ## Getting Started
@@ -24,7 +25,7 @@ npx create-next-app --typescript
 
 ```
 npm install --save-exact react-query next-auth @sentry/nextjs @sentry/tracing
-npm install --save-exact --save-dev lint-staged prettier
+npm install --save-exact --save-dev cross-env lint-staged prettier
 ```
 
 #### I18n
@@ -73,6 +74,10 @@ export default withSentry(handler)
 ## Structure
 ## Components And Styling
 ## Forms
+
+- [Formik](https://github.com/formium/formik)
+- [Yup](https://github.com/jquense/yup)
+
 ## API Layer
 ## State Management
 ## Auth
@@ -83,6 +88,9 @@ export default withSentry(handler)
 ### Sentry
 
 ## Security
+
+- [DOMPurify](https://github.com/cure53/DOMPurify)
+
 ## Performance
 
 ### Sentry

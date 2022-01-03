@@ -29,6 +29,7 @@
     "@formatjs/cli": "",
     "@types/react": "",
     "babel-plugin-formatjs": "",
+    "cross-env": "",
     "eslint": "",
     "eslint-config-next": "",
     "typescript": ""
