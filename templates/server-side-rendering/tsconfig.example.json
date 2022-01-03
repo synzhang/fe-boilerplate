@@ -2,14 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/constants/*": ["constants/*"],
-      "@/utils/*": ["utils/*"],
-      "@/services/*": ["services/*"],
-      "@/hooks/*": ["hooks/*"],
-      "@/contexts/*": ["contexts/*"],
-      "@/components/*": ["components/*"],
-      "@/layouts/*": ["layouts/*"],
-      "@/pagePartials/*": ["pagePartials/*"],
+      "@": ["."],
     }
   },
 }
