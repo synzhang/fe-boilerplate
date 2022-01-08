@@ -4,6 +4,7 @@
   "scripts": {
     "extract:i18n": "formatjs extract '{constants,utils,services,hooks,contexts,components,layouts,pagePartials,pages}/**/*.{js,ts,tsx}' --out-file lang/$LANG.raw.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
     "compile:i18n": "formatjs compile lang/$LANG.raw.json --ast --out-file lang/$LANG.json",
+    "prettier": "prettier --write .",
     "release": "standard-version",
     "postrelease": "git push && git push --tags",
     "release-major": "npm run release -- --release-as major",
@@ -32,6 +33,8 @@
     "cross-env": "",
     "eslint": "",
     "eslint-config-next": "",
+    "eslint-config-prettier": "",
+    "prettier": "",
     "typescript": ""
   }
 }

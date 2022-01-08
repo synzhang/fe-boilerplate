@@ -3,6 +3,7 @@
     "security"
   ],
   "extends": [
-    "plugin:security/recommended"
+    "plugin:security/recommended",
+    "prettier"
   ]
 }
