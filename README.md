@@ -8,3 +8,7 @@
 4. [React Native](./templates/expo)
 
 ## Usage
+
+## Docs
+
+- [Naming cheatsheet](https://github.com/kettanaito/naming-cheatsheet)
