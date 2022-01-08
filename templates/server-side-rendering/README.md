@@ -72,6 +72,36 @@ export default withSentry(handler)
 ```
 
 ## Structure
+
+```
+app
+├── assets            // static files such as images, fonts, etc
+├── components        // shared components used across the entire application
+├── constants         // shared constants
+├── contexts          // shared react contexts
+├── hooks             // shared hooks used across the entire application
+├── lang              // locale files
+├── layouts           // shared layout components
+│   ├── base          // the most basic layout, use in everywhere
+│   ├── basic         // the most used layout, use in most pages
+│   └── blank         // the blank layout, use in somewhere that don't need components in basic
+├── lib               // re-exporting different libraries pre-configured for the application
+├── pagePartials      // page sub-components
+├── pages             // pages
+├── public            // public files
+├── services          // application services
+│   ├── api           // api requests
+│   ├── auth          // authentication
+│   ├── i18n          // internationalization
+│   └── sentry        // sentry integration
+├── styles            // global stylesheets
+├── test              // test utilities and mock server
+├── types             // base typescripts types used across the application
+│   ├── business      // business types
+│   └── global.d.ts   // global types
+└── utils             // shared utility functions
+```
+
 ## Components And Styling
 ## Forms
 
