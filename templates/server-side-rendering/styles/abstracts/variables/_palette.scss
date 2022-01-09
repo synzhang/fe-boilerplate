@@ -1,0 +1,32 @@
+/**
+ * Color system
+ */
+
+$white: #fff;
+$black: #000;
+$blue: #1890ff;
+$green: #28a745;
+$cyan: #17a2b8;
+$yellow: #ffc107;
+$gold: #d3b285;
+$red: #dc3545;
+
+$color-primary: $blue;
+$color-secondary: #6c757d;
+$color-success: $green;
+$color-info: $cyan;
+$color-warning: $yellow;
+$color-danger: $red;
+$color-white: $white;
+$color-black: $black;
+
+$color-gray-lighter: #dedede;
+$color-gray-light: #c1c1c1;
+$color-gray: #979797;
+$color-gray-dark: #666;
+$color-gray-darker: #333;
+
+$color-body: $color-gray-dark;
+$color-muted: $color-gray-light;
+$color-link: $color-primary;
+$color-link-hover: darken($color-link, 5%);

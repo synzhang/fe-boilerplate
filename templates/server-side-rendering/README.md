@@ -95,6 +95,10 @@ app
 │   ├── i18n          // internationalization
 │   └── sentry        // sentry integration
 ├── styles            // global stylesheets
+│   ├── abstracts     // SASS variables, mixins, functions, etc
+│   ├── components    // styles for components
+│   ├── normalize.css // css reset
+│   └── global.scss   // global styles
 ├── test              // test utilities and mock server
 ├── types             // base typescripts types used across the application
 │   ├── business      // business types
