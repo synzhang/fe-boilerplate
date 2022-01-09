@@ -15,19 +15,28 @@ class ErrorBoundary extends Component {
     this.state = { hasError: false };
   }
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError (error) {
     // 更新 state 使下一次渲染能够显示降级后的 UI
     return { hasError: true };
   }
 
-  componentDidCatch(error, errorInfo) {
+  componentDidCatch (error, errorInfo) {
     console.error(error, errorInfo)
+  }
+
+  refresh () {
+    window.location.assign(window.location.origin)
   }
 
   render() {
     if (this.state.hasError) {
       return (
-        <div>Error</div>
+        <div>
+          <div>Error</div>
+          <button onClick={this.refresh}>
+            Refresh
+          </button>
+        </div>
       );
     }
 
