@@ -16,7 +16,7 @@
 ### Init
 
 ```
-npx create-next-app --typescript
+npx create-next-app@latest --typescript
 ```
 
 ### Dependencies
