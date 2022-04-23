@@ -5,10 +5,12 @@
 ### Features
 
 1. Server Side Rendering
-2. TypeScript
-3. I18n
-4. Error tracking
-5. Performance Monitoring
+2. SEO Friendly
+3. Responsive
+4. TypeScript
+5. I18n
+6. Error tracking
+7. Performance Monitoring
 
 
 ## Getting Started
@@ -27,6 +29,10 @@ npx create-next-app@latest --typescript
 npm install --save-exact react-query next-auth @sentry/nextjs @sentry/tracing
 npm install --save-exact --save-dev cross-env lint-staged prettier
 ```
+
+#### Polyfill
+
+https://polyfill.io/v3/
 
 #### I18n
 
@@ -70,6 +76,10 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
 export default withSentry(handler)
 ```
+
+#### Source Map
+
+https://docs.sentry.io/platforms/javascript/sourcemaps/uploading/
 
 ## Structure
 
