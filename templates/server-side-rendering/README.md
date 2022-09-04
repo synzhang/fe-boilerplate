@@ -89,21 +89,23 @@ app
 ├── components        // shared components used across the entire application
 ├── constants         // shared constants
 ├── contexts          // shared react contexts
+├── docs              // documentation
 ├── hooks             // shared hooks used across the entire application
-├── lang              // locale files
+├── locale            // locale files
 ├── layouts           // shared layout components
 │   ├── base          // the most basic layout, use in everywhere
 │   ├── basic         // the most used layout, use in most pages
 │   └── blank         // the blank layout, use in somewhere that don't need components in basic
 ├── lib               // re-exporting different libraries pre-configured for the application
+│   └── sentry        // sentry integration
+├── mock              // API mock
 ├── pagePartials      // page sub-components
 ├── pages             // pages
 ├── public            // public files
 ├── services          // application services
 │   ├── api           // api requests
 │   ├── auth          // authentication
-│   ├── i18n          // internationalization
-│   └── sentry        // sentry integration
+│   └── i18n          // internationalization
 ├── styles            // global stylesheets
 │   ├── abstracts     // SASS variables, mixins, functions, etc
 │   ├── components    // styles for components
@@ -113,20 +115,53 @@ app
 ├── types             // base typescripts types used across the application
 │   ├── business      // business types
 │   └── global.d.ts   // global types
-└── utils             // shared utility functions
+├── utils             // shared utility functions
+├── tsconfig.json     // TypeScript configs
+└── .env              // environment variables
+
 ```
 
 ## Components And Styling
+
 ## Forms
 
 - [Formik](https://github.com/formium/formik)
 - [Yup](https://github.com/jquense/yup)
 
 ## API Layer
+
 ## State Management
-## Auth
+
+- Initial State
+- Global State
+
+### [Recoil](https://github.com/facebookexperimental/Recoil)
+
+Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
+
+### [Zustand](https://github.com/pmndrs/zustand)
+
+Bear necessities for state management in React.
+
+## Authentication & Authorization
+
+## Coding Style
+
+- [ESLint](https://github.com/eslint/eslint): Find and fix problems in your JavaScript code.
+- [Stylelint](https://github.com/stylelint/stylelint): A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+- [Prettier](https://github.com/prettier/prettier): Prettier is an opinionated code formatter.
+
+Tools:
+
+- [Husky](https://github.com/typicode/husky): Git hooks made easy 🐶 woof!
+- [lint-staged](https://github.com/okonet/lint-staged): Run linters on git staged files.
+
+## Design System
+
 ## API Mock Server
+
 ## Testing
+
 ## Error Handling
 
 ### Sentry
@@ -138,3 +173,51 @@ app
 ## Performance
 
 ### Sentry
+
+## Instrumentation
+
+1. Measurement and tracking are key for a stable system
+2. Monitoring
+3. Error logging (for tracing)
+4. Debugging
+5. Logs/Track all events happened in the application
+6. Implement Analytics (GA)
+7. Sentry (to capture errors)
+8. Newrelic (to detect failures)
+
+## SEO
+
+1. Crawling
+2. Use of Heading tags
+3. Semantic tags
+4. Site Ranking
+5. Sitemap
+6. Meta Keywords
+7. Organic approach vs Inorganic approach
+8. Use of alt tags
+9. 301 Redirects (bad for SEO)
+10. Robots.txt
+11. Open graph protocol for social graph
+
+## Accessibility
+
+1. Alt attributes
+2. Aria-labels
+3. Multi-device support, slow network speed
+4. Color contrast, semantics tags
+
+## Progressive Web App
+
+## Debugger
+
+https://github.com/ericclemmons/click-to-component
+https://github.com/shuding/tilg
+
+## Versioning of artifacts
+
+1. Artifacts tracking (ex: Confluence)
+2. Rollback & backup mechanisms
+
+## Checklist
+
+[The Front-End Checklist](https://frontendchecklist.io/)
