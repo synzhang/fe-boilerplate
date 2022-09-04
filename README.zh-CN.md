@@ -158,4 +158,7 @@
 - [Conformance for Frameworks](https://web.dev/conformance/)
 - [The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/)
 - [7 Principles of Rich Web Applications](https://rauchg.com/2014/7-principles-of-rich-web-applications)
+- [The Twelve-Factor App](https://12factor.net/)
 - [Ant Design Design Values](https://ant.design/docs/spec/values-cn)
+- [7 GUIs Dimensions of Evaluation](https://eugenkiss.github.io/7guis/dimensions)
+- [Frontend System Design Guide](https://github.com/devkodeio/frontend-system-design)
