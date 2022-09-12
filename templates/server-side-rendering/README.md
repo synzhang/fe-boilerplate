@@ -158,6 +158,9 @@ Tools:
 
 ## Design System
 
+- [Design System Checklist](https://www.designsystemchecklist.com/): An open-source checklist to help you plan, build and grow your design system.
+- [Checklist Design](https://www.checklist.design/): A collection of the best design practices.
+
 ## API Mock Server
 
 ## Testing
