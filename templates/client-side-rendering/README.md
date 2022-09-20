@@ -3,12 +3,13 @@
 ## Init
 
 ```
-npx create-react-app my-app --template typescript
+mkdir myapp && cd myapp
+pnpm dlx create-umi@latest
 ```
 
 ## Dependencies
 
 ```
-npm install --save-exact antd axios react-router-dom @sentry/browser
-npm install --save-dev --save-exact dotenv
+pnpm add --save-exact @sentry/browser
+pnpm add --save-dev --save-exact cross-env
 ```
