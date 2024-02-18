@@ -53,6 +53,10 @@ pnpm dlx shadcn-ui@latest init
 
 - [Tabler Icons](https://github.com/tabler/tabler-icons): A set of over 4900 free MIT-licensed high-quality SVG icons for you to use in your web projects.
 
+#### Virtual List
+
+- [React Virtualized](https://github.com/bvaughn/react-virtualized): React components for efficiently rendering large lists and tabular data.
+
 #### Uploader
 
 - [Uppy](https://github.com/transloadit/uppy): The next open source file uploader for web browsers.
@@ -61,13 +65,14 @@ pnpm dlx shadcn-ui@latest init
 
 - [Sortable](https://github.com/SortableJS/Sortable): Reorderable drag-and-drop lists for modern browsers and touch devices.
 
-#### Virtual List
-
-- [React Virtualized](https://github.com/bvaughn/react-virtualized): React components for efficiently rendering large lists and tabular data.
-
 #### Editor
 
 - [Lexical](https://github.com/facebook/lexical): An extensible text editor framework that provides excellent reliability, accessibility and performance.
+
+### Data Visualization
+
+- [d3](https://github.com/d3/d3): Bring data to life with SVG, Canvas and HTML.
+- [recharts](https://github.com/recharts/recharts): Redefined chart library built with React and D3.
 
 ### HTTP Client
 
@@ -253,7 +258,19 @@ export default withSentry(handler)
 
 ## API Mock Server
 
+- [json-server](https://github.com/typicode/json-server): Get a full fake REST API with zero coding in less than 30 seconds (seriously).
+
 ## Testing
+
+- [Jest](https://github.com/jestjs/jest): Delightful JavaScript Testing.
+
+### End to End
+
+- [Playwright](https://github.com/microsoft/playwright): Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+
+### Utils
+
+- [react-testing-library](https://github.com/testing-library/react-testing-library): Simple and complete React DOM testing utilities that encourage good testing practices.
 
 ## Performance
 
@@ -261,12 +278,16 @@ export default withSentry(handler)
 
 ## Progressive Web App
 
+- [Workbox](https://github.com/GoogleChrome/workbox): JavaScript libraries for Progressive Web Apps.
+
 ## Accessibility
 
 1. Alt attributes
 2. Aria-labels
 3. Multi-device support, slow network speed
 4. Color contrast, semantics tags
+
+- [ally.js](https://github.com/medialize/ally.js): JavaScript library to help modern web applications with accessibility concerns.
 
 ## Versioning of artifacts
 
