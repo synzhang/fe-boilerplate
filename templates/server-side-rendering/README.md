@@ -23,14 +23,13 @@ pnpm create next-app
 
 - [normalize.css](https://github.com/necolas/normalize.css): A modern alternative to CSS resets.
 - [TanStack Query](https://github.com/tanstack/query): Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.
-- [Auth.js](https://github.com/nextauthjs/next-auth): Authentication for the Web.
 - [Sentry](https://github.com/getsentry/sentry-javascript): Code breaks, fix it faster.
 - [cross-env](https://github.com/kentcdodds/cross-env): Cross platform setting of environment scripts.
 - [lint-staged](https://github.com/lint-staged/lint-staged): Run linters on git staged files.
 - [Standard Version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org.
 
 ```shell
-pnpm add --save-exact normalize.css react-query next-auth @sentry/nextjs @sentry/tracing
+pnpm add --save-exact normalize.css react-query @sentry/nextjs @sentry/tracing
 pnpm add --save-exact --save-dev cross-env lint-staged prettier
 ```
 
@@ -160,6 +159,27 @@ pnpm add --save-exact dayjs
 pnpm add --save-exact --save-dev eslint-plugin-security
 ```
 
+### Performance
+
+- [web-vitals](https://github.com/GoogleChrome/web-vitals): Essential metrics for a healthy site.
+
+### Progressive Web App
+
+- [Workbox](https://github.com/GoogleChrome/workbox): JavaScript libraries for Progressive Web Apps.
+
+### Accessibility
+
+1. Alt attributes
+2. Aria-labels
+3. Multi-device support, slow network speed
+4. Color contrast, semantics tags
+
+- [ally.js](https://github.com/medialize/ally.js): JavaScript library to help modern web applications with accessibility concerns.
+
+### Documentation
+
+- [Docusaurus](https://github.com/facebook/docusaurus): Easy to maintain open source documentation websites.
+
 ### Developer Experience
 
 #### Error Handling
@@ -177,10 +197,32 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 - [click-to-component](https://github.com/ericclemmons/click-to-component): Option+Click React components in your browser to instantly open the source in VS Code.
 - [tilg](https://github.com/shuding/tilg): A magical React Hook that helps you debug components.
 
+#### API Mock Server
+
+- [json-server](https://github.com/typicode/json-server): Get a full fake REST API with zero coding in less than 30 seconds (seriously).
+
+#### Testing
+
+- [Jest](https://github.com/jestjs/jest): Delightful JavaScript Testing.
+
+#### End to End
+
+- [Playwright](https://github.com/microsoft/playwright): Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+
+#### Utils
+
+- [react-testing-library](https://github.com/testing-library/react-testing-library): Simple and complete React DOM testing utilities that encourage good testing practices.
+- [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library): Simple and complete React hooks testing utilities that encourage good testing practices.
+
 #### Tools
 
 - [Husky](https://github.com/typicode/husky): Git hooks made easy 🐶 woof!
 - [lint-staged](https://github.com/okonet/lint-staged): Run linters on git staged files.
+
+#### Versioning of artifacts
+
+1. Artifacts tracking
+2. Rollback & backup mechanisms
 
 ## Structure
 
@@ -247,53 +289,9 @@ export default withSentry(handler)
 
 - [Uploading Source Maps](https://docs.sentry.io/platforms/javascript/sourcemaps/uploading/)
 
-## Design System
-
-- [Design System Checklist](https://www.designsystemchecklist.com/): An open-source checklist to help you plan, build and grow your design system.
-- [Checklist Design](https://www.checklist.design/): A collection of the best design practices.
-
-## Documentation
-
-- [Docusaurus](https://github.com/facebook/docusaurus): Easy to maintain open source documentation websites.
-
-## API Mock Server
-
-- [json-server](https://github.com/typicode/json-server): Get a full fake REST API with zero coding in less than 30 seconds (seriously).
-
-## Testing
-
-- [Jest](https://github.com/jestjs/jest): Delightful JavaScript Testing.
-
-### End to End
-
-- [Playwright](https://github.com/microsoft/playwright): Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
-
-### Utils
-
-- [react-testing-library](https://github.com/testing-library/react-testing-library): Simple and complete React DOM testing utilities that encourage good testing practices.
-
-## Performance
-
-- [web-vitals](https://github.com/GoogleChrome/web-vitals): Essential metrics for a healthy site.
-
-## Progressive Web App
-
-- [Workbox](https://github.com/GoogleChrome/workbox): JavaScript libraries for Progressive Web Apps.
-
-## Accessibility
-
-1. Alt attributes
-2. Aria-labels
-3. Multi-device support, slow network speed
-4. Color contrast, semantics tags
-
-- [ally.js](https://github.com/medialize/ally.js): JavaScript library to help modern web applications with accessibility concerns.
-
-## Versioning of artifacts
-
-1. Artifacts tracking
-2. Rollback & backup mechanisms
 
 ## Checklist
 
-- [The Front-End Checklist](https://frontendchecklist.io/)
+- [The Front-End Checklist](https://frontendchecklist.io/): The Front-End Checklist Application is perfect for modern websites and meticulous developers!
+- [Design System Checklist](https://www.designsystemchecklist.com/): An open-source checklist to help you plan, build and grow your design system.
+- [Checklist Design](https://www.checklist.design/): A collection of the best design practices.
