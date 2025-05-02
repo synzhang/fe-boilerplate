@@ -1,15 +1,30 @@
 # Web Client Side Rendering App Boilerplate
 
-## Init
+## Getting Started
+
+### Init
 
 ```
-mkdir myapp && cd myapp
-pnpm dlx create-umi@latest
+pnpm create vite
 ```
 
-## Dependencies
+### Dependencies
+
+- [react-router-dom]():
+- [sass]():
+- [sentry]():
+
+#### Base
 
 ```
-pnpm add --save-exact @sentry/browser
+pnpm add --save-exact react-router-dom @sentry/browser
 pnpm add --save-dev --save-exact cross-env
+
+pnpm add --save-dev --save-exact sass
 ```
+
+#### Polyfill
+
+https://polyfill.io/v3/
+
+## Configuration
