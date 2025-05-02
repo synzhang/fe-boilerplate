@@ -1,0 +1,40 @@
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+}
+
+.scroll-box {
+  max-height: 390px;
+  overflow-y: scroll;
+  scroll-timeline: --scroll-timeline y;
+  /* Firefox supports the older "vertical" syntax */
+  scroll-timeline: --scroll-timeline vertical;
+  position: relative;
+}
+
+.scroll-box-indicator-up {
+  top: 0;
+  box-shadow: inset 0 10px 8px -8px rgba(0, 0, 0, 0.15)
+}
+
+.scroll-box-indicator-down {
+  bottom: 0;
+  animation-direction: reverse;
+  box-shadow: inset 0 -10px 8px -8px rgba(0, 0, 0, 0.15)
+}
+
+.scroll-box-indicator-up,
+.scroll-box-indicator-down {
+  position: sticky;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  animation-name: reveal;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timeline: --scroll-timeline;
+}
