@@ -26,7 +26,7 @@ pnpm create next-app
 - [Sentry](https://github.com/getsentry/sentry-javascript): Code breaks, fix it faster.
 - [cross-env](https://github.com/kentcdodds/cross-env): Cross platform setting of environment scripts.
 - [lint-staged](https://github.com/lint-staged/lint-staged): Run linters on git staged files.
-- [Standard Version](https://github.com/conventional-changelog/standard-version): Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org.
+- [semantic-release](https://github.com/semantic-release/semantic-release): Fully automated version management and package publishing.
 
 ```shell
 pnpm add --save-exact normalize.css react-query @sentry/nextjs @sentry/tracing
@@ -52,9 +52,14 @@ pnpm dlx shadcn-ui@latest init
 
 - [Tabler Icons](https://github.com/tabler/tabler-icons): A set of over 4900 free MIT-licensed high-quality SVG icons for you to use in your web projects.
 
+#### AI
+
+- [ai](https://github.com/vercel/ai): The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents.
+
 #### Virtual List
 
 - [React Virtualized](https://github.com/bvaughn/react-virtualized): React components for efficiently rendering large lists and tabular data.
+- [react-window](https://github.com/bvaughn/react-window): React components for efficiently rendering large lists and tabular data
 
 #### Uploader
 
@@ -62,16 +67,52 @@ pnpm dlx shadcn-ui@latest init
 
 #### Drag & Drop
 
-- [Sortable](https://github.com/SortableJS/Sortable): Reorderable drag-and-drop lists for modern browsers and touch devices.
+- [pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop): Fast drag and drop for any experience on any tech stack.
 
 #### Editor
 
+- [Tiptap](https://github.com/ueberdosis/tiptap): The headless rich text editor framework for web artisans.
 - [Lexical](https://github.com/facebook/lexical): An extensible text editor framework that provides excellent reliability, accessibility and performance.
+
+#### Video
+
+- [plyr](https://github.com/sampotts/plyr): A simple HTML5, YouTube and Vimeo player.
+
+#### PDF
+
+- [jsPDF](https://github.com/parallax/jsPDF): Client-side JavaScript PDF generation for everyone.
+- [PDFKit](https://github.com/foliojs/pdfkit): A JavaScript PDF generation library for Node and the browser.
+- [react-pdf](https://github.com/diegomura/react-pdf): Create PDF files using React.
+
+#### Code
+
+- [prism](https://github.com/PrismJS/prism): Lightweight, robust, elegant syntax highlighting.
+
+#### Command Menu
+
+- [cmdk](https://github.com/pacocoursey/cmdk): Fast, unstyled command menu React component.
+
+#### Cropper
+
+- [react-advanced-cropper](https://github.com/advanced-cropper/react-advanced-cropper/): The react cropper library that embraces power of the advanced cropper core to give the possibility to create croppers that exactly suited for your website design.
+
+#### Timeline
+
+- [planby](https://github.com/karolkozer/planby): Planby is a React based component that lets you implement your own Schedule or Timeline so fast and simple.
+
+#### Map
+
+- [react-google-maps](https://github.com/visgl/react-google-maps): React components and hooks for the Google Maps JavaScript API.
 
 ### Data Visualization
 
 - [d3](https://github.com/d3/d3): Bring data to life with SVG, Canvas and HTML.
 - [recharts](https://github.com/recharts/recharts): Redefined chart library built with React and D3.
+
+### Markdown
+
+- [Marked](https://github.com/markedjs/marked): A markdown parser and compiler. Built for speed.
+- [Mermaid](https://github.com/mermaid-js/mermaid): Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown.
 
 ### HTTP Client
 
@@ -82,8 +123,6 @@ pnpm dlx shadcn-ui@latest init
 #### Logical State
 
 - [Zustand](https://github.com/pmndrs/zustand): Bear necessities for state management in React.
-- [Jotai](https://github.com/pmndrs/jotai): Primitive and flexible state management for React.
-- [Recoil](https://github.com/facebookexperimental/Recoil): An experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.
 
 #### Server State
 
@@ -104,9 +143,11 @@ pnpm dlx shadcn-ui@latest init
 - LocalStorage/SessionStorage
 - Cookie
 - IndexedDB
+- [nuqs](https://github.com/47ng/nuqs): Type-safe search params state manager for React frameworks - Like useState, but stored in the URL query string.
 
 ### Animation
 
+- [Framer Motion](https://github.com/framer/motion): Open source, production-ready animation and gesture library for React.
 - [Auto Animate](https://github.com/formkit/auto-animate): A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
 
 ### I18n
@@ -128,11 +169,18 @@ pnpm add --save-exact dayjs
 
 ### Authentication & Authorization
 
+- [better-auth](https://github.com/better-auth/better-auth): The most comprehensive authentication framework for TypeScript
+- [lucia](https://github.com/lucia-auth/lucia): Authentication, simple and clean.
 - [NextAuth](https://github.com/nextauthjs/next-auth/): Authentication for the Web.
+https://github.com/ehmicky/unix-permissions
 
 ### ORM
 
 - [Prisma](https://github.com/prisma/prisma): Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB.
+
+### Search
+
+- [Fuse](https://github.com/krisk/fuse): Lightweight fuzzy-search, in JavaScript.
 
 ### Utils
 
@@ -162,6 +210,7 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 ### Performance
 
 - [web-vitals](https://github.com/GoogleChrome/web-vitals): Essential metrics for a healthy site.
+- [react-scan](https://github.com/aidenybai/react-scan): Scan for React performance issues and eliminate slow renders in your app.
 
 ### Progressive Web App
 
@@ -179,6 +228,7 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 ### Documentation
 
 - [Docusaurus](https://github.com/facebook/docusaurus): Easy to maintain open source documentation websites.
+- [Storybook](https://github.com/storybookjs/storybook): Storybook is a frontend workshop for building UI components and pages in isolation. Made for UI development, testing, and documentation.
 
 ### Developer Experience
 
@@ -188,12 +238,14 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 
 #### Coding Style
 
+- [Biome](https://github.com/biomejs/biome): A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
 - [ESLint](https://github.com/eslint/eslint): Find and fix problems in your JavaScript code.
 - [Stylelint](https://github.com/stylelint/stylelint): A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 - [Prettier](https://github.com/prettier/prettier): Prettier is an opinionated code formatter.
 
 #### Debugger
 
+- [why-did-you-render](https://github.com/welldone-software/why-did-you-render): Monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.).
 - [click-to-component](https://github.com/ericclemmons/click-to-component): Option+Click React components in your browser to instantly open the source in VS Code.
 - [tilg](https://github.com/shuding/tilg): A magical React Hook that helps you debug components.
 
