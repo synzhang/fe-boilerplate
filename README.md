@@ -158,3 +158,5 @@ More connections between product functions and user requirements make human-comp
 - [The Elements of UI Engineering](https://overreacted.io/the-elements-of-ui-engineering/)
 - [7 GUIs Dimensions of Evaluation](https://eugenkiss.github.io/7guis/dimensions)
 - [Frontend System Design Guide](https://github.com/devkodeio/frontend-system-design)
+- [Developing an effective CI/CD pipeline for frontend apps](https://blog.logrocket.com/best-practices-ci-cd-pipeline-frontend/)
+- [Isomorphic Development](https://meijer.ws/articles/isomorphic-development)

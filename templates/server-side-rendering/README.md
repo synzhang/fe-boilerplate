@@ -4,11 +4,11 @@
 
 ### Features
 
-1. SEO Friendly
-2. Responsive
-3. Type Safe
-4. International
-5. Error tracking
+1. Responsive
+2. SEO Friendly
+3. International
+4. Type Safe
+5. Error Tracking
 6. Performance Monitoring
 
 ## Getting Started
@@ -40,6 +40,7 @@ pnpm add --save-exact --save-dev cross-env lint-staged prettier
 ### UI Components
 
 - [shadcn/ui](https://github.com/shadcn-ui/ui): Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
+  - [AI Elements](https://ai-sdk.dev/elements/overview): A component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster.
 
 ```shell
 # https://ui.shadcn.com/docs/installation/next
@@ -134,10 +135,6 @@ pnpm dlx shadcn-ui@latest init
 - [React Hook Form](https://github.com/react-hook-form/react-hook-form): React Hooks for form state management and validation (Web + React Native).
 - [Formik](https://github.com/formium/formik): Build forms in React, without the tears.
 
-#### Navigation State
-
-- [React Router](https://github.com/remix-run/react-router): Declarative routing for React.
-
 #### Browser State
 
 - LocalStorage/SessionStorage
@@ -170,17 +167,17 @@ pnpm add --save-exact dayjs
 ### Authentication & Authorization
 
 - [better-auth](https://github.com/better-auth/better-auth): The most comprehensive authentication framework for TypeScript
-- [lucia](https://github.com/lucia-auth/lucia): Authentication, simple and clean.
-- [NextAuth](https://github.com/nextauthjs/next-auth/): Authentication for the Web.
-https://github.com/ehmicky/unix-permissions
+- [CASL](https://github.com/stalniy/casl): An isomorphic authorization JavaScript library which restricts what resources a given user is allowed to access.
 
 ### ORM
 
+- [Drizzle](https://github.com/drizzle-team/drizzle-orm): Headless ORM for NodeJS, TypeScript and JavaScript.
 - [Prisma](https://github.com/prisma/prisma): Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB.
 
 ### Search
 
 - [Fuse](https://github.com/krisk/fuse): Lightweight fuzzy-search, in JavaScript.
+- [cmdk](https://github.com/pacocoursey/cmdk): Fast, unstyled command menu React component.
 
 ### Utils
 
@@ -211,6 +208,7 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 
 - [web-vitals](https://github.com/GoogleChrome/web-vitals): Essential metrics for a healthy site.
 - [react-scan](https://github.com/aidenybai/react-scan): Scan for React performance issues and eliminate slow renders in your app.
+- [stats.js](https://github.com/mrdoob/stats.js): JavaScript Performance Monitor.
 
 ### Progressive Web App
 
@@ -240,6 +238,7 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 
 - [Biome](https://github.com/biomejs/biome): A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.
 - [ESLint](https://github.com/eslint/eslint): Find and fix problems in your JavaScript code.
+  - [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import): import/no-cycle.
 - [Stylelint](https://github.com/stylelint/stylelint): A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 - [Prettier](https://github.com/prettier/prettier): Prettier is an opinionated code formatter.
 
@@ -248,6 +247,7 @@ pnpm add --save-exact --save-dev eslint-plugin-security
 - [why-did-you-render](https://github.com/welldone-software/why-did-you-render): Monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.).
 - [click-to-component](https://github.com/ericclemmons/click-to-component): Option+Click React components in your browser to instantly open the source in VS Code.
 - [tilg](https://github.com/shuding/tilg): A magical React Hook that helps you debug components.
+- [winston](https://github.com/winstonjs/winston): A multi-transport async logging library for Node.js.
 
 #### API Mock Server
 

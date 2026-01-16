@@ -2,6 +2,12 @@
  * Color system
  */
 
+/* The brand colour needs to have a contrast ratio of at least 4.5:1 against the background.
+ * This ensure that button and link text are accessible to those with low vision.
+ * You should also check the contrast using the APCA method, as the standard method doesn’t work well with certain colours.
+ * The APCA method is especially effective for measuring contrast on dark interfaces.
+ */
+
 $white: #fff;
 $black: #000;
 $blue: #1890ff;
@@ -30,3 +36,54 @@ $color-body: $color-gray-dark;
 $color-muted: $color-gray-light;
 $color-link: $color-primary;
 $color-link-hover: darken($color-link, 5%);
+
+/*
+ * APCA contrast guidelines:
+ *  - 90 - Preferred for body text (14px regular and above).
+ *  - 75 - Minimum for body text (18px regular and above).
+ *  - 60 - Minimum for other text (24px regular or 16px bold and above).
+ *  - 45 - Minimum for large text (36px regular or 24px bold and above) and interface elements.
+ *  - 30 - Absolute minimum for text like form field placeholder text and disabled button text.
+ *  - 15 - Minimum for non-text elements.
+ */
+
+// $color-head: ;
+// $color-body: ;
+
+/*
+ * Important contrast ratios:
+ *  - 3:1 - Minimum for large text (above 18px with bold weight or above 24px with regular weight) and user interface elements (like form fields). Decorative elements and styles that don’t convey meaning don’t need to meet this contrast ratio.
+ *  - 4.5:1 - Minimum for small text (18px or less).
+ */
+
+// ## Color Palette Rules
+
+// #### Brand
+
+// - I’m using a hue of 230 for my brand colour. I’m also using the brand colour to indicate interactive elements like buttons and text links.
+// - Must have a contrast ratio of at least 4.5:1 against the “fill” variation, as a text link could sit on a “fill” background.
+
+// #### Text strong
+
+// - Greatly decrease the brightness of the brand colour. Aim for a very dark grey with a tinge of the brand colour. Because this variation is so dark, you’ll need to saturate it quite heavily.
+// - Must have a contrast ratio of at least 4.5:1 against the "fill" variation, as it’s used for primary text that could sit on a "fill" background.
+
+// #### Text weak
+
+// - Increase the brightness and decrease the saturation of the previous variation. Aim for a dark grey with a tinge of the brand colour.
+// - Must have a contrast ratio of at least 4.5:1 against the "fill" variation, as it’s used for secondary text that could sit on a "fill" background.
+
+// #### Stroke strong
+
+// - Increase the brightness and decrease the saturation of the previous variation. Aim for a medium grey with a tinge of the brand colour.
+// - Must have a contrast ratio of at least 3:1 against the “fill” variation, as it’s used for non-decorative borders on interface elements. For example, form input field borders. The borders of form input fields are critical to identifying them as input fields, so they need to have sufficient contrast.
+
+// #### Stroke weak
+
+// - Increase the brightness and decrease the saturation of the previous variation. Aim for a light grey with a tinge of the brand colour.
+// - This is just a decorative colour used for borders that aren’t critical to identifying interface elements, so it doesn’t need to be high contrast. Decorative borders are often used to emphasise the separation between interface elements. Removing them shouldn’t hinder usability.
+
+// #### Fill
+
+// - Increase the brightness and decrease the saturation of the previous variation. Aim for a very light grey with a tinge of the brand colour.
+// - The colour of any text and interface elements that sit on this background colour need to have a contrast ratio that meets WCAG 2.1 level AA accessibility requirements.
